@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
       - name: Run a multi-line script
         run: |
-          ls | echo
+          ls
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
