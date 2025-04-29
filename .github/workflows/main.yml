@@ -9,6 +9,11 @@ on:
       - main
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: todo
+
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
